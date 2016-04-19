@@ -1,0 +1,6 @@
+.ignitiondeck .id-widget-day::after {
+    content: " ";
+}
+.ignitiondeck .id-widget-month::after {
+    content: " ";
+}

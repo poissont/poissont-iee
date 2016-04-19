@@ -1,0 +1,292 @@
+/*
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*   DATEPICKER -*-*-*-*-*-*-*-*-*-*-*
+
+*/
+.bii-datepicker, .dynamic-agenda .ui-datepicker{
+	background: #2b2b2b;
+	padding: 10px;
+	font-family: arial;
+	color: #FFF;
+	position: relative;
+	z-index:3 !important;
+}
+
+.bii-datepicker .ui-datepicker-title , .dynamic-agenda .ui-datepicker .ui-datepicker-title{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.bii-datepicker table, .dynamic-agenda .ui-datepicker table{
+	border-collapse: separate;
+    border-spacing: 5px;
+	border: none;
+	margin: 0;
+}
+
+.bii-datepicker  tr , .dynamic-agenda .ui-datepicker tr{
+	border: none;
+}
+
+.bii-datepicker th, .dynamic-agenda .ui-datepicker th{
+	font-weight: normal;
+}
+
+.bii-datepicker td, .dynamic-agenda .ui-datepicker td{
+	background: #414141;
+	padding: 0;
+	height: 30px;
+	line-height: 30px;
+	width: 39px;
+	border: none;
+	text-align: center;
+}
+
+.bii-datepicker .ui-state-highlight, .dynamic-agenda .ui-datepicker .ui-state-highlight{
+	background: #FFF;
+	color: #00b6f0;
+}
+
+.bii-datepicker .ui-state-highlight:hover, .dynamic-agenda .ui-datepicker .ui-state-highlight:hover{
+	background: #00b6f0;
+	color: #FFF;
+}
+
+.bii-datepicker td:hover, .dynamic-agenda .ui-datepicker td:hover{
+	background: #00b6f5;
+}
+
+.bii-datepicker td a,
+.bii-datepicker td a:hover,
+.dynamic-agenda .bii-datepicker td a,
+.dynamic-agenda .bii-datepicker td a:hover{
+	color: #FFF;
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	width: 39px;
+	display: block;
+	cursor: default;
+	cursor: pointer;
+}
+
+.bii-datepicker .ui-datepicker-header, .dynamic-agenda .ui-datepicker .ui-datepicker-header{
+	height: 32px;
+}
+
+.bii-datepicker .ui-datepicker-title,.dynamic-agenda .ui-datepicker .ui-datepicker-title{
+	margin-top: 7px;
+}
+
+.bii-datepicker .ui-datepicker-prev, .dynamic-agenda .ui-datepicker .ui-datepicker-prev{
+	height: 20px;
+	width: 10px;
+	background: url(../img/arrows-white-small.png) top left;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+.bii-datepicker.ui-datepicker-next, .dynamic-agenda .ui-datepicker .ui-datepicker-next{
+	height: 20px;
+	width: 10px;
+	background: url(../img/arrows-white-small.png) top right;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+
+/*
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*   STYLE -*-*-*-*-*-*-*-*-*-*-*
+
+*/
+
+input[type="radio"], input[type="checkbox"]{
+	margin:9px 0;
+}
+.input-group +p{
+	margin : 0 0 9px;
+}
+
+.liste-attributs{
+	padding:10px;
+}
+.stuffbox h3 button{
+	float:right;
+	margin-bottom:10px;
+}
+
+.strike{
+	text-decoration: line-through;
+}
+
+a.btn, a.btn:hover{
+	text-decoration: none;
+}
+
+p.form-control{
+	cursor: not-allowed;
+}
+.div-delline{
+	position:absolute;
+	right:0px;
+}
+.liste-attributs .attribut:last-of-type .div-delline{
+	display:none;
+}
+.liste-attributs .attribut:first-of-type{
+	/*display:none;*/
+}
+
+
+
+.inside .data-set {
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.mot-clef .proposition {
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.2857;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding: 4px 8px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.data-set.coul0, .proposition.coul0 {
+    background-color: #d8dcc3;
+}
+.data-set.coul1, .proposition.coul1 {
+    background-color: #aedbc4;
+}
+.data-set.coul2, .proposition.coul2 {
+    background-color: #d47677;
+}
+.data-set.coul3, .proposition.coul3 {
+    background-color: #fbe784;
+}
+.data-set.coul4, .proposition.coul4 {
+    background-color: #af8bb7;
+}
+.data-set.coul5, .proposition.coul5 {
+    background-color: #dbe4f5;
+}
+.data-set.coul6, .proposition.coul6 {
+    background-color: #efe995;
+}
+.data-set.coul7, .proposition.coul7 {
+    background-color: #f2b284;
+}
+
+#data-content-photo_produit{
+	padding:10px;
+}
+#data-content-photo_produit img{
+	margin:5px;
+}
+
+span.over{
+	position:absolute;
+	
+	font-size:25px;
+	color:#D47677;
+	top:5px;
+	right:5px;
+	display:none;
+}
+.data-set{
+	cursor:move;
+}
+.data-set .fa{
+	cursor:pointer;
+}
+.data-set:hover span.over{
+	display:inline-block;
+}
+.data-set.photo{
+	display:block;
+	position:relative;
+	float:left;
+	/*height:170px;*/
+	width:110px;
+	margin-right:20px;
+	border:1px solid #EEEEEE;
+}
+.data-set.photo .likeaform{
+	padding-left:3px;
+	padding-right:3px;
+	display:block;
+}
+.data-set.photo .likeaform label{
+	font-weight: bold;
+}
+#image_string_div #url_image, #url_image_div #url_image{
+	width:70%;
+}
+#image_string_div .form-group, #url_image_div .form-group{
+	width:100%;
+}
+#image_string_div h3 + p{
+	padding-left:15px;
+}
+
+.badge{
+	background-color: #523F6D;
+}
+
+.bii_dashboard .titre h1{
+	display:inline-block;
+	padding-right:30px;
+}
+.bii_dashboard .titre .form-inline{
+	display:inline-block;
+}
+.bii_dashboard .notbutton{
+	padding:6px 12px;
+}
+.hide-relative{
+	padding:10px;
+	margin-left:5px;
+	margin-right:5px;
+	cursor:pointer;
+	font-size: 16px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.hide-relative:first-of-type{
+	margin-left:0px;
+}
+.hide-relative:last-of-type{
+	margin-right:0px;
+}
+.hide-relative.active{
+	background-color: #337ab7;
+	border:1px solid #2e6da4;
+	color:#fff;
+}
+.hide-relative.active:hover{
+	background-color: #286090;
+	border-color: #204d74;
+}
+.hide-relative:hover{
+	background-color: #EEEEEE;
+}
